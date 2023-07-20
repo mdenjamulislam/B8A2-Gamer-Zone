@@ -104,6 +104,30 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-primary:hover {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #fff;
+}  
+
+.btn-secondary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
 /*==================================
     2.0 - Header
 ==================================*/
@@ -186,7 +210,44 @@ button.btn-nav:hover {
     height: auto;
 }
 
+/* Start Banner Area */
 
+.banner {
+    padding-top: 20px;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-cont h1.banner-title {
+    font-size: 1.8rem;
+    padding-bottom: 24px;
+}
+
+.banner-cont h1.banner-title span {
+    font-weight: 700;
+    font-size: 5rem;
+    display: block;
+}
+
+.banner-features p {
+    padding-bottom: 17px;
+}
+
+.banner-features p svg {
+    width: 30px;
+    height: auto;
+    padding-right: 12px;
+}
+
+.banner-btn {
+    display: flex;
+    column-gap: 24px;
+    padding-top: 24px;
+}
 
 
 
