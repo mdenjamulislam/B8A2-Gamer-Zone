@@ -153,18 +153,18 @@ img {
     align-items: center;
 }
 
-.navbar .logo {
+.logo {
     display: flex;
     align-items: center;
 }
 
-.navbar .logo img {
+.logo img {
     width: 86px;
     height: auto;
     margin-right: 20px;
 }
 
-.navbar .logo h3 {
+.logo h3 {
     font-size: 1.8rem;
 }
 
@@ -300,6 +300,128 @@ button.btn-nav:hover {
     font-weight: 700;
 }
 
+/* Start Funny Video Area   */
+
+.fvideo {
+    padding: 120px 0;
+}
+
+.fvideo .section-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fvideo .section-title h2 {
+    padding-bottom: 16px;
+}
+
+.fvideo-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.fvideo-wrap .fvideo-card {
+    
+}
+.fvideo-wrap .fvideo-card .card-video {
+    border-radius: 16px;
+    position: relative;
+}
+
+.fvideo-wrap .fvideo-card .fvideo-title {
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.card-hover i {
+    font-size: 3rem;
+    color: #fff;
+    display: block;
+}
+
+.card-hover P{
+    color: #fff;
+    padding-top: 16px;
+    display: block;
+}
+
+.fvideo-wrap .fvideo-card .card-video:hover .card-hover {
+    opacity: 1;
+}
+
+
+/* Start Features Area */
+
+
+
+
+/* Start Footer Area */
+
+.footer {
+    padding: 120px 0;
+    background: #0B0223;
+    text-align: center;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo h3 {
+    color: #fff;
+}
+
+.footer .footer-menu,
+.footer-bottom ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.footer .footer-menu li,
+.footer-bottom ul li {
+    padding: 0 30px;
+}
+
+.footer .footer-menu li a,
+.footer-bottom ul li a {
+    color: #fff;
+}
+
+.social-icon {
+    padding-top: 66px;
+}
+
+.social-icon a {
+    padding: 0 30px;
+}
+
+.social-icon a i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.footer-bottom p {
+    color: #fff;
+    padding-top: 20px;
+}
 
 
 
