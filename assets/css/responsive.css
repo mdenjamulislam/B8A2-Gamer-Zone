@@ -1,0 +1,26 @@
+/* ======================
+    For Mobile Devices
+====================== */
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        row-gap: 62px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        row-gap: 62px;
+    }
+
+    .navbar .menu ul {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+}
