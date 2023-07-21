@@ -45,7 +45,8 @@
         max-width: 100%;
     }
 
-    .about > .container {
+    .about > .container, 
+    .feature .container {
         flex-direction: column;
     }
 
@@ -55,6 +56,76 @@
 
     .about-cont {
         text-align: center;
+    }
+
+    .fvideo-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .feature .feature-img {
+        padding-top: 70px;
+    }
+
+    .feature .feature-img img {
+        width: auto;
+    }
+
+    .feature .feature-img img.large-image {
+        width: 80%;
+        text-align: right;
+        float: right;
+    }
+
+    .feature .feature-img img.small-img {
+        width: 40%;
+        margin-top: 0px;
+        margin-left: 0;    
+    }
+    
+    .career {
+        padding: 150px 0;
+    }
+
+    .career .container {
+        grid-template-columns: 1fr;
+    }
+    .career .career-cont {
+        padding: 0;
+    }
+    .career .career-list-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .career .career-img img {
+        width: 100%;
+        margin: 0;
+        padding-top: 120px;
+    }
+
+    .games .games-item-wrap {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+
+    .footer .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+
+    .footer-bottom ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .footer-bottom {
+        padding-top: 65px;
+    }
+
+    .footer-bottom p span {
+        display: block;
     }
 
 }
@@ -73,5 +144,7 @@
         text-align: center;
     }
 
-    
+    .fvideo-wrap {
+        grid-template-columns: 1fr;
+    }
 }

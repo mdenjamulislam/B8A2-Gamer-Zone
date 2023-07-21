@@ -413,16 +413,6 @@ button.btn-nav:hover {
 }
 
 
-.feature2 .feature-img img.small-img {
-    margin-left: 540px;
-    margin-top: -280px;
-}
-
-.feature .feature-cont {
-    text-align: left;
-    width: 408px;
-}
-
 /* Start Career Area */
 
 .career {
@@ -457,8 +447,8 @@ button.btn-nav:hover {
 }
 
 .career .career-list-wrap {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 32px;
 }
 .career .career-list-wrap p {
@@ -483,8 +473,9 @@ button.btn-nav:hover {
 }
 
 .games .games-item-wrap {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 28px;
 }
 
 .games .games-item {
@@ -509,11 +500,7 @@ button.btn-nav:hover {
     padding-right: 16px;
 }
 
-.games-item-wrap2 {
-    padding-top: 28px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+
 
 
 /* Start Footer Area */
