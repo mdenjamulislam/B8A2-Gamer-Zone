@@ -221,13 +221,25 @@ button.btn-nav:hover {
 /* Start Banner Area */
 
 .banner {
-    padding-top: 20px;
+    position: relative;
 }
 
 .banner .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner .banner-cont {
+    padding: 145px 0;
+    
+}
+
+.banner .banner-cont img {
+    position: absolute;
+    top: 0;
+    left: -150px;
+
 }
 
 .banner-cont h1.banner-title {
