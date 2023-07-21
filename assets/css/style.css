@@ -368,6 +368,49 @@ button.btn-nav:hover {
 
 /* Start Features Area */
 
+.feature {
+    padding-bottom: 120px;
+}
+
+.feature .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature .feature-cont {
+    width: 353px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.feature .feature-cont h2 {
+    padding-bottom: 24px;
+}
+
+.feature .feature-img {
+    display: block;
+}
+
+.feature .feature-img img.small-img {
+    display: block;
+    margin-top: -280px;
+    margin-left: -120px;
+    
+}
+
+
+.feature2 .feature-img img.small-img {
+    margin-left: 540px;
+    margin-top: -280px;
+}
+
+.feature .feature-cont {
+    text-align: left;
+    width: 408px;
+}
+
+/* Start Career Area */
 
 
 
